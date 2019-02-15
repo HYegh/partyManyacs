@@ -7,5 +7,5 @@ In this project you can
  
  
 In party invitation you can sea information for party, you can sea inviter contacts and wishes.
-You can chack any wish if you want to by for this party. And oter guests and inviter will sea that wish is already checked.
+You can chack any wish if you want to buy for this party. And oter guests and inviter will sea that wish is already checked.
 If in party invitation wish is already checked by other guests you cant checked wish.
