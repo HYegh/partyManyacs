@@ -1,0 +1,107 @@
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: auto;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup_inner {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    padding: 10px 0;
+    background: #fff;
+    border-radius: 10px;
+    width: 600px;
+    max-width: 100%;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.popup_inner form {
+    width: 100%;
+    position: relative;
+}
+
+.input {
+    width: 100%;
+    margin-bottom: 5px
+}
+
+.mapContent{
+    width: 100%;
+    padding-bottom: 50%;
+    position: relative;
+    margin: 20px 0; 
+}
+
+.timeContent{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: "5px"
+}
+
+table {
+    width: 80%;
+}
+
+table th{
+    color: #1890ff;
+}
+table td, table th{
+    padding: 10px;
+}
+
+
+.partyCont div{
+    margin: 10px 0;
+}
+
+.party-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.party-item{
+    color:#3190ff;
+    background: #72b1ecc2;
+    padding: 7px 16px;
+    border: 1px solid #93c4f1;
+    width: 80%;
+    background: #f0f2f5;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 10px
+  }
+  
+  .party-item  .ant-btn {
+    font-size: 16px
+  }
+  .create-btn {
+    display: block;
+    width: 80%;
+    height: 49px;
+    margin: 0 10%;
+  }
+
+  h3{
+      text-align: center
+  }
+
+
+
+
+
+

@@ -1,0 +1,85 @@
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  80% {
+    transform: translateX(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  80% {
+    transform: translateX(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color:white;
+}
+a:hover{
+  color : #ffffff
+}
+
+
+.fb, .go  {
+  display: flex;
+  align-items:center;
+  margin: 10px;
+  font-size: 2em;
+  font-weight: bold;
+  font-size: 1.6rem;
+  border-radius: 10rem;
+  border: 3px solid white;
+  cursor: pointer;
+  transition: transform .2s;
+  padding: 12px;
+  animation: moveInLeft 1s ease-out;
+}
+
+
+.go {
+  padding: 12px 26px 12px;
+  animation: moveInRight 1s ease-out;
+}
+
+.go img {
+  margin-right: 5px;
+}
+
+.go:hover, .fb:hover {
+  transform: scale(1.1) 
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(80, 157, 187, 0.7),
+    rgba(27, 166, 212, 0.4)
+  ),url('./Hero.jpg');
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+

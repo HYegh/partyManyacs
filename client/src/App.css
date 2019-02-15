@@ -1,0 +1,51 @@
+.logo {
+  background: inherit !important;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+
+}
+.l-img {
+  width: 25px;
+}
+.logo-img{
+  margin-right: 8px;
+}
+
+
+.field-btn {
+  font-size: 20px
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
